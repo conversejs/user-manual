@@ -29,3 +29,14 @@ h1#project_title a {
 h1 a {
     color: #0069ba;
 }
+
+ul {
+    margin-bottom: 5px;
+}
+
+tt.literal {
+    color: #222;
+    background-color: #fff;
+    font-family: Monaco, "Bitstream Vera Sans Mono", "Lucida Console", Terminal, monospace;
+    font-size: 14px;
+}
