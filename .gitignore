@@ -1,0 +1,7 @@
+.installed.cfg
+doctrees
+include
+lib
+bin
+html
+pip-selfcheck.json
