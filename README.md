@@ -6,33 +6,23 @@ The user manual was originally inside the [converse.js](https://github.com/conve
 
 ## How to generate HTML from the source files?
 
-### Install Dependencies
-
-In order to generate HTML from the source files, you need to install Sphinx,
-which is a Python package.
-
-We use [zc.buildout](http://www.buildout.org/en/latest/) to manage Python
-package dependencies.
-
-To install Sphinx, do the following inside this repo:
-
-    virtualenv .
-    source bin/activate
-    pip install -r requirements.txt
-    ./bin/buildout
-
 ### Generate the HTML
 
-After installing the dependencies, you can generate the HTML by running:
+You can generate the HTML by running:
 
     make html
 
 The HTMl files will be located in `./html`
 
+Behind the scenes, what the `make html` command is doing, is to install [zc.buildout](http://www.buildout.org/en/latest/)
+and then using that to install Sphinx and its dependencies.
+
+You'll need to have Python and [Virtualenv](https://virtualenv.pypa.io/en/latest/) available on your computer.
+
 ### Serving the documentation
 
 To view the generated docs, you can run `make serve` and then open
-http://localhost:8001/docs/html/manual.html in your browser.
+http://localhost:8001/docs/html/index.html in your browser.
 
 ### License
 
