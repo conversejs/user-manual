@@ -10,7 +10,7 @@ The Converse.js User Manual
 
    <br/>
 
-.. figure:: images/homepage.jpg
+.. figure:: images/homepage.png
    :align: right
    :alt: The converse.js website
 
@@ -34,7 +34,7 @@ converse.js chat client.
 Registering a new chat account
 ==============================
 
-.. figure:: images/register-panel.jpg
+.. figure:: images/register-panel.png
    :align: left
    :alt: The registration panel of the converse.js control box.
 
@@ -73,7 +73,7 @@ name and click the **Fetch registration form** button.
 
 |br|
 
-.. figure:: images/register-form.jpg
+.. figure:: images/register-form.png
    :align: left
    :alt: The registration form for an XMPP account at conversejs.org
 
@@ -143,7 +143,7 @@ Technically, when you add someone as a contact, you're doing two things. Firstly
 you are adding the contact to your *roster* (think of it as an address book) and secondly
 you are asking to be notified whenever that person comes online.
 
-.. figure:: images/pending-contact.jpg
+.. figure:: images/pending-contact.png
    :align: left
    :alt: A pending contact
 
