@@ -143,6 +143,25 @@ Technically, when you add someone as a contact, you're doing two things. Firstly
 you are adding the contact to your *roster* (think of it as an address book) and secondly
 you are asking to be notified whenever that person comes online.
 
+|br|
+
+.. figure:: images/add-group.png
+   :align: left
+   :alt: Add a groupchat in converse.js
+
+   The form for adding a new group
+
+
+Add a groupchat
+================
+
+To join a group, click the **Add a group** link in the **GroupChats** tab. This will
+slide open a new dialog in which you can type the GroupChat adress of the group you'd
+like to add.
+
+Once you've typed the GroupChat adress  and clicked **Join**, you will see
+the name of the GroupChat you added in your GroupChat list.
+
 .. figure:: images/pending-contact.png
    :align: left
    :alt: A pending contact
@@ -204,7 +223,7 @@ Filtering a contact by name
 
 To filter contacts by name, simply click on the first icon in the contact group and enter
 the contact's name in the'filter' text box and the list of your contacts will be filtered
- according to the data you have entered.
+according to the data you have entered.
 
 .. figure:: images/filter-contact-status.png
    :align: left
@@ -215,6 +234,4 @@ the contact's name in the'filter' text box and the list of your contacts will be
 Filtering a contact by status
 ===========================
 
-To filter contacts by status, simply click on the last icon in the contact group and select
- in the list the relevant status and the list of your contacts will be filtered according
- to the status you have chosen.
+To filter contacts by status, simply click on the last icon in the contact group and select in the list the relevant status and the list of your contacts will be filtered according to the status you have chosen.
