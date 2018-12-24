@@ -184,3 +184,37 @@ To remove a contact, hover your mouse over their name and then click on the
 trash icon. You will be prompted to confirm, and if you do, the contact will no
 longer be visible in your roster.
 
+.. figure:: images/filter-contact-name.png
+   :align: left
+   :alt: Filtering a contact by name
+
+Filtering a contact
+===================
+
+There are different ways to filter contacts :
+
+.. figure:: images/filter-contact-name.png
+   :align: left
+   :alt: Filtering a contact by name
+
+   Filtering a contact by name
+
+Filtering a contact by name
+===========================
+
+To filter contacts by name, simply click on the first icon in the contact group and enter
+the contact's name in the'filter' text box and the list of your contacts will be filtered
+ according to the data you have entered.
+
+.. figure:: images/filter-contact-status.png
+   :align: left
+   :alt: Filtering a contact by status
+
+   Filtering a contact by status
+
+Filtering a contact by status
+===========================
+
+To filter contacts by status, simply click on the last icon in the contact group and select
+ in the list the relevant status and the list of your contacts will be filtered according
+ to the status you have chosen.
