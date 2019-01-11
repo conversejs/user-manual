@@ -153,7 +153,7 @@ you are asking to be notified whenever that person comes online.
 
 
 Add a groupchat
-================
+===============
 
 To join a group, click the **Add a group** link in the **GroupChats** tab. This will
 slide open a new dialog in which you can type the GroupChat adress of the group you'd
@@ -232,6 +232,6 @@ according to the data you have entered.
    Filtering a contact by status
 
 Filtering a contact by status
-===========================
+=============================
 
 To filter contacts by status, simply click on the last icon in the contact group and select in the list the relevant status and the list of your contacts will be filtered according to the status you have chosen.
