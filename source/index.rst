@@ -41,7 +41,7 @@ Registering a new chat account
    The registration panel of converse.js
 
 With converse.js you can register a new XMPP account on any publically available XMPP provider.
-To do so, click the **Register** tab on the chat client.
+To do so, click the **Register** link to the bottom of panel.
 
 You will then see the *registration panel* as shown in the picture below.
 
@@ -73,12 +73,6 @@ name and click the **Fetch registration form** button.
 
 |br|
 
-.. figure:: images/register-form.png
-   :align: left
-   :alt: The registration form for an XMPP account at conversejs.org
-
-   The registration form
-
 
 Filling out the registration form
 ---------------------------------
@@ -88,30 +82,6 @@ the chat provider, ask for its registration form and then present it to you.
 
 Different chat providers have different registration forms, but they're all
 relatively similar.
-
-Check the security score
-~~~~~~~~~~~~~~~~~~~~~~~~
-
-At the top of the form you'll see a colored bar containing the text **xmpp.net score**.
-This shows the security score for this server as determined by `xmpp.net <https://xmpp.net>`_
-where you can test out a server for yourself. You should generally avoid providers with
-a poor security score (colored in red).
-
-Choosing a username
-~~~~~~~~~~~~~~~~~~~
-
-As you can see in the registration form, the **username** consists of two
-parts separated with an **@** sign, similar to an email address.
-
-The first part is your unique *handle* which you need to choose. The second part
-is the domain name of the chat provider, the one which you chose in the previous step
-when you fetched the registration form.
-
-When you want to give someone your XMPP chat username, or when you want to add
-someone else as a contact, you need to specify it in full, like you would an email address.
-
-Once you've chosen your user name and password, click **Register**. If
-Successful, you'll be automatically logged in to your new account.
 
 |br|
 
@@ -127,7 +97,7 @@ Adding a contact
 
 In order to start chatting with someone, you first need to add them as a contact.
 
-To do this, click the **Add a contact** link in the **Contacts** tab. This will
+To do this, click the **Add a contact** link in the **Contacts** section. This will
 slide open a dropdown in which you can type the username of the person you'd
 like to add.
 
@@ -155,12 +125,12 @@ you are asking to be notified whenever that person comes online.
 Add a groupchat
 ===============
 
-To join a group, click the **Add a group** link in the **GroupChats** tab. This will
-slide open a new dialog in which you can type the GroupChat adress of the group you'd
+To join a group, click the **+** link in the **groupchat** section. This will
+ open a new modal in which you can type the groupchat adress of the group you'd
 like to add.
 
-Once you've typed the GroupChat adress  and clicked **Join**, you will see
-the name of the GroupChat you added in your GroupChat list.
+Once you've typed the groupchat adress  and clicked **Join**, you will see
+the name of the groupchat you added in your groupchat list.
 
 .. figure:: images/pending-contact.png
    :align: left
@@ -219,7 +189,7 @@ There are different ways to filter contacts :
    Filtering a contact by name
 
 Filtering a contact by name
-===========================
+---------------------------
 
 To filter contacts by name, simply click on the first icon in the contact group and enter
 the contact's name in the'filter' text box and the list of your contacts will be filtered
@@ -232,6 +202,6 @@ according to the data you have entered.
    Filtering a contact by status
 
 Filtering a contact by status
-=============================
+-----------------------------
 
 To filter contacts by status, simply click on the last icon in the contact group and select in the list the relevant status and the list of your contacts will be filtered according to the status you have chosen.
