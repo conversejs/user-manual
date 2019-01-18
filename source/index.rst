@@ -85,15 +85,16 @@ relatively similar.
 
 |br|
 
+Adding a contact
+================
+
+|br|
+
 .. figure:: images/add-contact.png
-   :align: left
+   :align: center
    :alt: Adding a contact in converse.js
 
    The form for adding a new contact
-
-
-Adding a contact
-================
 
 In order to start chatting with someone, you first need to add them as a contact.
 
@@ -115,93 +116,92 @@ you are asking to be notified whenever that person comes online.
 
 |br|
 
+Add a groupchat
+===============
+
+|br|
+
 .. figure:: images/add-group.png
-   :align: left
+   :align: center
    :alt: Add a groupchat in converse.js
 
    The form for adding a new group
 
-
-Add a groupchat
-===============
-
-To join a group, click the **+** link in the **groupchat** section. This will
- open a new modal in which you can type the groupchat adress of the group you'd
+To join a group, click the **+** link in the **groupchat** section. This will open a new modal in which you can type the groupchat adress of the group you'd
 like to add.
 
-Once you've typed the groupchat adress  and clicked **Join**, you will see
-the name of the groupchat you added in your groupchat list.
-
-.. figure:: images/pending-contact.png
-   :align: left
-   :alt: A pending contact
-
-   A pending contact
+Once you've typed the groupchat adress  and clicked **Join**, you will see the name of the groupchat you added in your groupchat list.
 
 A pending contact
 -----------------
+
+.. figure:: images/pending-contact.png
+   :align: center
+   :alt: A pending contact
+
+   A pending contact
 
 The person you are adding as a contact has the option to either accept or decline your request.
 Until that decision has been made, they will appear in your roster as a
 so-called *pending* contact. In other words, their final status is pending on whether
 they accept or decline your request.
 
+A normal contact
+----------------
+
 .. figure:: images/ungrouped-contact.png
-   :align: right
+   :align: center
    :alt: A normal, ungrouped contact
 
    A normal contact
-
-A normal contact
-----------------
 
 If the person accepts your contact request, they will get a *chat status
 indicator* in your roster and will also become clickable. Clicking on the name
 of the user will open a chatbox in which you can then start chatting with that
 user.
 
+Removing a contact
+==================
+
 .. figure:: images/remove-contact.png
-   :align: left
+   :align: center
    :alt: Removing a contact
 
    Removing a contact
-
-Removing a contact
-==================
 
 To remove a contact, hover your mouse over their name and then click on the
 trash icon. You will be prompted to confirm, and if you do, the contact will no
 longer be visible in your roster.
 
-.. figure:: images/filter-contact-name.png
-   :align: left
-   :alt: Filtering a contact by name
-
 Filtering a contact
 ===================
 
-There are different ways to filter contacts :
-
 .. figure:: images/filter-contact-name.png
-   :align: left
+   :align: center
    :alt: Filtering a contact by name
 
-   Filtering a contact by name
+There are different ways to filter contacts :
 
 Filtering a contact by name
 ---------------------------
+
+.. figure:: images/filter-contact-name.png
+   :align: center
+   :alt: Filtering a contact by name
+
+   Filtering a contact by name
 
 To filter contacts by name, simply click on the first icon in the contact group and enter
 the contact's name in the'filter' text box and the list of your contacts will be filtered
 according to the data you have entered.
 
+Filtering a contact by status
+-----------------------------
+
 .. figure:: images/filter-contact-status.png
-   :align: left
+   :align: center
    :alt: Filtering a contact by status
 
    Filtering a contact by status
-
-Filtering a contact by status
------------------------------
 
 To filter contacts by status, simply click on the last icon in the contact group and select in the list the relevant status and the list of your contacts will be filtered according to the status you have chosen.
