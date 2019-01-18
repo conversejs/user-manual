@@ -10,7 +10,7 @@ The Converse.js User Manual
 
    <br/>
 
-.. figure:: images/homepage.jpg
+.. figure:: images/homepage.png
    :align: right
    :alt: The converse.js website
 
@@ -34,14 +34,14 @@ converse.js chat client.
 Registering a new chat account
 ==============================
 
-.. figure:: images/register-panel.jpg
+.. figure:: images/register-panel.png
    :align: left
    :alt: The registration panel of the converse.js control box.
 
    The registration panel of converse.js
 
 With converse.js you can register a new XMPP account on any publically available XMPP provider.
-To do so, click the **Register** tab on the chat client.
+To do so, click the **Register** link to the bottom of panel.
 
 You will then see the *registration panel* as shown in the picture below.
 
@@ -73,12 +73,6 @@ name and click the **Fetch registration form** button.
 
 |br|
 
-.. figure:: images/register-form.jpg
-   :align: left
-   :alt: The registration form for an XMPP account at conversejs.org
-
-   The registration form
-
 
 Filling out the registration form
 ---------------------------------
@@ -89,45 +83,22 @@ the chat provider, ask for its registration form and then present it to you.
 Different chat providers have different registration forms, but they're all
 relatively similar.
 
-Check the security score
-~~~~~~~~~~~~~~~~~~~~~~~~
-
-At the top of the form you'll see a colored bar containing the text **xmpp.net score**.
-This shows the security score for this server as determined by `xmpp.net <https://xmpp.net>`_
-where you can test out a server for yourself. You should generally avoid providers with
-a poor security score (colored in red).
-
-Choosing a username
-~~~~~~~~~~~~~~~~~~~
-
-As you can see in the registration form, the **username** consists of two
-parts separated with an **@** sign, similar to an email address.
-
-The first part is your unique *handle* which you need to choose. The second part
-is the domain name of the chat provider, the one which you chose in the previous step
-when you fetched the registration form.
-
-When you want to give someone your XMPP chat username, or when you want to add
-someone else as a contact, you need to specify it in full, like you would an email address.
-
-Once you've chosen your user name and password, click **Register**. If
-Successful, you'll be automatically logged in to your new account.
-
 |br|
-
-.. figure:: images/add-contact.png
-   :align: left
-   :alt: Adding a contact in converse.js
-
-   The form for adding a new contact
-
 
 Adding a contact
 ================
 
+|br|
+
+.. figure:: images/add-contact.png
+   :align: center
+   :alt: Adding a contact in converse.js
+
+   The form for adding a new contact
+
 In order to start chatting with someone, you first need to add them as a contact.
 
-To do this, click the **Add a contact** link in the **Contacts** tab. This will
+To do this, click the **Add a contact** link in the **Contacts** section. This will
 slide open a dropdown in which you can type the username of the person you'd
 like to add.
 
@@ -143,44 +114,94 @@ Technically, when you add someone as a contact, you're doing two things. Firstly
 you are adding the contact to your *roster* (think of it as an address book) and secondly
 you are asking to be notified whenever that person comes online.
 
-.. figure:: images/pending-contact.jpg
-   :align: left
-   :alt: A pending contact
+|br|
 
-   A pending contact
+Add a groupchat
+===============
+
+|br|
+
+.. figure:: images/add-group.png
+   :align: center
+   :alt: Add a groupchat in converse.js
+
+   The form for adding a new group
+
+To join a group, click the **+** link in the **groupchat** section. This will open a new modal in which you can type the groupchat adress of the group you'd
+like to add.
+
+Once you've typed the groupchat adress  and clicked **Join**, you will see the name of the groupchat you added in your groupchat list.
 
 A pending contact
 -----------------
+
+.. figure:: images/pending-contact.png
+   :align: center
+   :alt: A pending contact
+
+   A pending contact
 
 The person you are adding as a contact has the option to either accept or decline your request.
 Until that decision has been made, they will appear in your roster as a
 so-called *pending* contact. In other words, their final status is pending on whether
 they accept or decline your request.
 
+A normal contact
+----------------
+
 .. figure:: images/ungrouped-contact.png
-   :align: right
+   :align: center
    :alt: A normal, ungrouped contact
 
    A normal contact
-
-A normal contact
-----------------
 
 If the person accepts your contact request, they will get a *chat status
 indicator* in your roster and will also become clickable. Clicking on the name
 of the user will open a chatbox in which you can then start chatting with that
 user.
 
+Removing a contact
+==================
+
 .. figure:: images/remove-contact.png
-   :align: left
+   :align: center
    :alt: Removing a contact
 
    Removing a contact
-
-Removing a contact
-==================
 
 To remove a contact, hover your mouse over their name and then click on the
 trash icon. You will be prompted to confirm, and if you do, the contact will no
 longer be visible in your roster.
 
+Filtering a contact
+===================
+
+.. figure:: images/filter-contact-name.png
+   :align: center
+   :alt: Filtering a contact by name
+
+There are different ways to filter contacts :
+
+Filtering a contact by name
+---------------------------
+
+.. figure:: images/filter-contact-name.png
+   :align: center
+   :alt: Filtering a contact by name
+
+   Filtering a contact by name
+
+To filter contacts by name, simply click on the first icon in the contact group and enter
+the contact's name in the'filter' text box and the list of your contacts will be filtered
+according to the data you have entered.
+
+Filtering a contact by status
+-----------------------------
+
+.. figure:: images/filter-contact-status.png
+   :align: center
+   :alt: Filtering a contact by status
+
+   Filtering a contact by status
+
+To filter contacts by status, simply click on the last icon in the contact group and select in the list the relevant status and the list of your contacts will be filtered according to the status you have chosen.
